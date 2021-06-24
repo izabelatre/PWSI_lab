@@ -21,7 +21,6 @@ class Navbar extends React.Component {
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
                                 <NavLink to="/" className="nav-link"> HOME</NavLink>
-                                {/*<a class="nav-link" href="register">{this.props.text1}</a>*/}
                             </li>
                             <li class="nav-item">
                                 <a className="nav-link" onClick={refreshPage}>
